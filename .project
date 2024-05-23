@@ -3,6 +3,7 @@
 	<name>Chess-system</name>
 	<comment></comment>
 	<projects>
+		<project>curso_udemy</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
