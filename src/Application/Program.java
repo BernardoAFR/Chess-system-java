@@ -19,7 +19,7 @@ public class Program {
 		
 		
 		
-		while(true) {
+		while(!chessmatch.getCheckMate()) {
 			try {
 				UI.clearScreen();
 				UI.printMatch(chessmatch, captured);	
@@ -48,8 +48,10 @@ public class Program {
 				input.nextLine();
 			}
 			
-			
 		}
+		UI.clearScreen();
+		UI.printMatch(chessmatch, captured);
+		
 	}
 
 }
